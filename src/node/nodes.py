@@ -3,7 +3,7 @@
 from src.state.rag_state import RAGState
 
 class RAGNodes:
-    """Contains node functions for RAG workflow"""
+    """Contains node functions RAG workflow"""
     
     def __init__(self, retriever, llm):
         """
