@@ -101,25 +101,22 @@ RAG_Document_Search
 
 The system runs as a stateful graph pipeline consisting of the following nodes:
 
-* 🔹 **Document Loader Node:** Handles file ingestion.
-* 🔹 **Chunk Processor Node:** Splits text for processing.
-* 🔹 **Embedding Node:** Generates vector representations.
-* 🔹 **Vector Retrieval Node:** Fetches context based on user queries.
-* 🔹 **LLM Response Node:** Generates the final answer.
+🔹 **Document Loader Node:** Handles file ingestion.
+🔹 **Chunk Processor Node:** Splits text for processing.
+🔹 **Embedding Node:** Generates vector representations.
+🔹 **Vector Retrieval Node:** Fetches context based on user queries.
+🔹 **LLM Response Node:** Generates the final answer.
 
-**Benefits of this architecture:**
-* ✨ **Traceable:** You can visualize the path of execution.
-* ✨ **Scalable:** Easy to add new nodes (e.g., a grading node or web search node).
-* ✨ **Production-ready:** State management is built-in.
-
----
+Benefits of this architecture:**
+✨ **Traceable:** You can visualize the path of execution.
+✨ **Scalable:** Easy to add new nodes (e.g., a grading node or web search node).
+✨ **Production-ready:** State management is built-in.
+--
 
 ## 🚀 Getting Started
-
-### Prerequisites
-* Python 3.9+
-* API Key for LLM Provider (e.g., `OPENAI_API_KEY`)
-
+## Prerequisites
+ Python 3.9+
+ API Key for LLM Provider (e.g., `OPENAI_API_KEY`)
 ### Installation
 
 1. **Clone the repository**
