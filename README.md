@@ -36,6 +36,7 @@ It utilizes a **graph-based architecture (LangGraph)**, making the pipeline modu
 
 ---
 
+
 ## 🧠 Tech Stack
 
 * **Language:** Python
@@ -45,42 +46,6 @@ It utilizes a **graph-based architecture (LangGraph)**, making the pipeline modu
 * **LLM Provider:** [OpenAI GPT / Llama / etc.]
 * **Frontend:** Streamlit
 
----
-
-## 📂 Project Structure
-
-
-RAG_Document_Search
-│
-├── data/
-│   ├── Dhruta_resume.pdf
-│   └── url.txt
-│
-├── src/
-│   ├── state/
-│   │   ├── __init__.py
-│   │   └── rag_state.py
-│   │
-│   ├── vectorstore/
-│   │   ├── __init__.py
-│   │   └── vectorstore.py
-│   │
-│   ├── graph_builder/
-│   │   ├── __init__.py
-│   │   └── graph_builder.py
-│   │
-│   ├── node/
-│   │   ├── __init__.py
-│   │   ├── nodes.py
-│   │   └── reactnode.py
-│   │
-│   └── document_ingestion/
-│       ├── __init__.py
-│       └── document_process.py
-│
-├── main.py
-├── streamlit_app.py
-└── requirements.txt
 ---
 ## 🔍 How It Works
 
@@ -117,5 +82,42 @@ The system runs as a stateful graph pipeline consisting of the following nodes:
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 * Python 3.9+
 * API Key for LLM Provider (e.g., `OPENAI_API_KEY`)
+
+## 📂 Project Structure
+
+```bash
+RAG_Document_Search
+│
+├── data/
+│   ├── Dhruta_resume.pdf
+│   └── url.txt
+│
+├── src/
+│   ├── state/
+│   │   ├── __init__.py
+│   │   └── rag_state.py
+│   │
+│   ├── vectorstore/
+│   │   ├── __init__.py
+│   │   └── vectorstore.py
+│   │
+│   ├── graph_builder/
+│   │   ├── __init__.py
+│   │   └── graph_builder.py
+│   │
+│   ├── node/
+│   │   ├── __init__.py
+│   │   ├── nodes.py
+│   │   └── reactnode.py
+│   │
+│   └── document_ingestion/
+│       ├── __init__.py
+│       └── document_process.py
+│
+├── main.py
+├── streamlit_app.py
+└── requirements.txt
+
