@@ -66,3 +66,42 @@ RAG_Document_Search
 |___main.py
 |___streamlit_app.py
 |___requirements.txt
+
+
+🔍 How It Works
+
+1️⃣ Upload a PDF
+The document is read and converted to clean text
+
+2️⃣ Chunking & Embeddings
+The text is split and embedded
+
+3️⃣ Vector Indexing
+Chunks are stored for semantic search
+
+4️⃣ User Asks a Question
+Relevant chunks are retrieved
+
+5️⃣ RAG-Based Answering
+The LLM responds using only your document
+
+🎯 No external data
+🎯 No hallucinations
+🎯 Reliable context-aware answers
+
+
+🏗️ Architecture (LangGraph Workflow)
+
+The system runs as a graph pipeline consisting of:
+
+🔹 Document Loader Node
+🔹 Chunk Processor Node
+🔹 Embedding Node
+🔹 Vector Retrieval Node
+🔹 LLM Response Node
+
+This makes the flow:
+
+✨ Traceable
+✨ Scalable
+✨ Production-ready
