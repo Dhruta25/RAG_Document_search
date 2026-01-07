@@ -34,3 +34,35 @@ Think of it as ChatGPT — but limited to your own document.
 	•	Vector Store (FAISS / Similar)
 	•	LLM Provider
 	•	Document Loaders
+
+
+RAG_Document_Search
+│
+├── data/                    
+│   ├── Dhruta_resume.pdf
+│   └── url.txt
+│
+├── src/                      
+│   ├── state/
+│   │   ├── __init__.py
+│   │   └── rag_state.py
+│   │
+│   ├── vectorstore/
+│   │   ├── __init__.py
+│   │   └── vectorstore.py
+│   │
+│   ├── graph_builder/
+│   │   ├── __init__.py
+│   │   └── graph_builder.py
+│   │
+│   ├── node/
+│   │   ├── __init__.py
+│   │   ├── nodes.py
+│   │   └── reactnode.py
+│   │
+│   └── document_ingestion/
+│       ├── __init__.py
+│       └── document_process.py
+|___main.py
+|___streamlit_app.py
+|___requirements.txt
