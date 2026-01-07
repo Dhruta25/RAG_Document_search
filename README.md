@@ -97,29 +97,25 @@ RAG_Document_Search
 
 ---
 
-## 🏗️ Architecture (LangGraph Workflow)
+## 🏗 Architecture (LangGraph Workflow)
 
 The system runs as a stateful graph pipeline consisting of the following nodes:
 
-🔹 **Document Loader Node:** Handles file ingestion.
-🔹 **Chunk Processor Node:** Splits text for processing.
-🔹 **Embedding Node:** Generates vector representations.
-🔹 **Vector Retrieval Node:** Fetches context based on user queries.
-🔹 **LLM Response Node:** Generates the final answer.
+* 🔹 **Document Loader Node:** Handles file ingestion.
+* 🔹 **Chunk Processor Node:** Splits text for processing.
+* 🔹 **Embedding Node:** Generates vector representations.
+* 🔹 **Vector Retrieval Node:** Fetches context based on user queries.
+* 🔹 **LLM Response Node:** Generates the final answer.
 
-Benefits of this architecture:**
-✨ **Traceable:** You can visualize the path of execution.
-✨ **Scalable:** Easy to add new nodes (e.g., a grading node or web search node).
-✨ **Production-ready:** State management is built-in.
---
+**Benefits of this architecture:**
+* ✨ **Traceable:** You can visualize the path of execution.
+* ✨ **Scalable:** Easy to add new nodes (e.g., a grading node or web search node).
+* ✨ **Production-ready:** State management is built-in.
+
+---
 
 ## 🚀 Getting Started
-## Prerequisites
- Python 3.9+
- API Key for LLM Provider (e.g., `OPENAI_API_KEY`)
-### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone [https://github.com/yourusername/RAG_Document_Search.git](https://github.com/yourusername/RAG_Document_Search.git)
-   cd RAG_Document_Search
+### Prerequisites
+* Python 3.9+
+* API Key for LLM Provider (e.g., `OPENAI_API_KEY`)
