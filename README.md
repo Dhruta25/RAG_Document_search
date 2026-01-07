@@ -1,0 +1,3 @@
+📄 RAG Document Search — AI-Powered PDF Question Answering
+
+An intelligent Retrieval-Augmented Generation (RAG) application that allows users to upload a PDF and ask natural-language questions — with answers generated strictly from the document itself. Built using LangChain, LangGraph, and modern LLM tooling, this project demonstrates how AI can transform static documents into interactive knowledge systems.
