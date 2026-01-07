@@ -17,3 +17,20 @@ It follows a graph-based architecture using LangGraph — making the pipeline mo
 
 Think of it as ChatGPT — but limited to your own document.
 
+✨ Features
+	•	Document-aware Question Answering
+	•	Zero Hallucinations
+	•	Graph-based RAG Pipeline
+	•	Modular Code Architecture
+	•	Efficient Vector Search
+	•	Supports Multiple Document Types
+	•	Easy to Extend & Customize
+
+🧠 Tech Stack
+	•	Python
+	•	LangChain
+	•	LangGraph
+	•	Embeddings Model
+	•	Vector Store (FAISS / Similar)
+	•	LLM Provider
+	•	Document Loaders
