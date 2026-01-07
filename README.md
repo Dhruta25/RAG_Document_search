@@ -49,7 +49,7 @@ It utilizes a **graph-based architecture (LangGraph)**, making the pipeline modu
 
 ## 📂 Project Structure
 
-```bash
+
 RAG_Document_Search
 │
 ├── data/
@@ -81,7 +81,7 @@ RAG_Document_Search
 ├── main.py
 ├── streamlit_app.py
 └── requirements.txt
-
+---
 ## 🔍 How It Works
 
 1. **Upload a PDF:** The document is read and converted to clean text.
